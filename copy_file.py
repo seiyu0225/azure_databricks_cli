@@ -4,7 +4,7 @@ from re import sub
 import subprocess
 from tqdm import tqdm
 
-source_directory = "dbfs:/FileStore/xxxxxxx" ## 適宜設定
+source_directory = "dbfs:/FileStore/xxxxxxxxxx/" ## 適宜設定
 target_directory = "./data/"
 
 file_list = subprocess.run([f"dbfs ls {source_directory}"], shell=True, stdout = subprocess.PIPE, stderr = subprocess.PIPE)

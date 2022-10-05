@@ -1,5 +1,5 @@
 ## 参考：https://learn.microsoft.com/ja-jp/azure/databricks/dev-tools/cli/
-## 環境変数の設定，xxxxは適宜設定
+## 環境変数の設定，xxxxxxxxxxは適宜設定
 export DATABRICKS_AAD_TOKEN=xxxxxxxxxx
 host_url=xxxxxxxxxx
 expect -c "
